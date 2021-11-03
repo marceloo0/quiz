@@ -9,7 +9,7 @@
 
 ## Link to access this app's website
 
-<a>https://quiz.vercel.app</a>
+<a>https://quizz-sigma.vercel.app/</a>
 
 ## Some example screens
 
