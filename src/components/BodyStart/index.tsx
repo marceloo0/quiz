@@ -28,7 +28,7 @@ export const BodyStart = () => {
     <Box>
       {!isShow ? (
         <Stack
-          direction="row"
+          sx={{ flexDirection: { xs: 'column', md: 'row' } }}
           spacing={20}
           justifyContent="space-between"
           alignItems="center"
@@ -36,8 +36,13 @@ export const BodyStart = () => {
           margin="auto"
           padding={8}
         >
-          <Image src={logo1} alt="logo" width={336} height={586} />
-          <Box>
+          <Image src={logo1} alt="logo" width={330} height={586} />
+          <Box
+            marginLeft={4}
+            maxWidth={520}
+            alignItems="center"
+            justifyContent="center"
+          >
             <Typography
               variant="h4"
               component="h1"
